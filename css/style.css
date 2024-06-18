@@ -39,7 +39,13 @@ img{
     height: fit-content;
 }
 
+.button-white{
 
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    
+}
 
 h1{
     width: 60%;
@@ -270,5 +276,163 @@ header{
     position: absolute;
     top: 20px;
     right: 20px;
+}
+
+.second-section{
+
+    display:flex;
+    width: 50%;
+    margin:100px auto;
+}
+
+.second-section .left{
+
+    width: 60%;
+}
+
+.second-section .right{
+    width: 40%;
+    padding-left: 40px;
+}
+
+.second-section .right h3,
+.second-section .right p{
+
+    padding: 20px 0;
+}
+
+.third-section{
+
+    width: 50%;
+    margin:100px auto;
+
+}
+
+.third-section h2{
+
+    font-size: 2rem;
+    margin-bottom: 60px;
+}
+
+.third-section-row,
+.fourth-section-top{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px 0;
+
+}
+
+.col-th-section,
+.col-ft-section{
+
+    width: calc(100% / 3);
+    margin-bottom: 30px;
+}
+
+.col-th-section:nth-child(2){
+
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.col-th-section h3{
+
+    margin: 30px 0;
+    
+
+}
+
+.third-section-bottom{
+
+    width: 60%;
+    margin: 100px auto 0 0;
+    
+
+}
+
+
+.col-ft-section.logos{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-ft-section.logos .img-logo{
+    
+    width: calc(100% / 2);
+    padding: 80px 60px;
+    align-content: center;
+
+}
+
+.img-logo img{
+
+    filter: invert(1);
+    display: block;
+    
+    
+}
+
+.img-logo.bg-green{
+
+    background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
+    
+}
+
+.img-logo.bg-bordeaux{
+
+    background-color:#61082B ;
+}
+.img-logo.bg-sky-blue{
+
+    background-color:#0093CE ;
+}
+
+.img-logo.bg-orange-red{
+
+    background-color: #FF1C1C;
+}
+
+.img-logo.bg-red{
+
+    background-color:#D5001F ;
+}
+.img-logo.bg-light-blue{
+
+    background-color: #B4D0E7;
+}
+.img-logo.bg-blue{
+
+    background-color: #0D2481;
+}
+.img-logo.bg-yellow{
+
+    background-color: #FFD830;
+}
+
+.col-ft-section:nth-child(2){
+
+    padding: 0 30px;
+}
+
+.col-ft-section .center-logo{
+
+    width: 40%;
+    padding-top: 30px;
+    
+}
+
+.col-ft-section hr{
+
+    width: 20%;
+    margin: 30px 0;
+}
+
+.col-ft-section p{
+
+    margin-top: 30px;
 }
 /*footer*/
